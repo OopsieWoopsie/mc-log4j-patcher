@@ -1,15 +1,15 @@
 # mc-log4j-patcher
 
-Replaces old (vulnerable - CVE-2021-44228) Log4j2 version with the latest one (2.15.0) that contains the JNDI RCE fix.
+Replaces old (vulnerable - CVE-2021-44228) Log4j2 version with the latest one (2.15.0) that contains the JNDI RCE fix.\
 Tested on Spigot 1.12.2, PaperSpigot 1.8.8, PaperSpigot 1.17.1
 
-This is intended to fix servers that are currently unsupported, such as PaperSpigot 1.8.8
+This is intended to fix servers that are currently unsupported, such as PaperSpigot 1.8.8\
 Please check if your current server software has an official release fixing the vulnerability before using this tool.
 
-Usage:
-java -jar patcher.jar <old-server.jar> <fixed-server.jar>
+Usage:\
+`java -jar patcher.jar <old-server.jar> <fixed-server.jar>`
 
-If you use PaperSpigot, then the "old-server.jar" file should be the one located at "cache/patched.jar" and not the paperclip.jar wrapper.
+If you use PaperSpigot, then the "old-server.jar" file should be the one located at "cache/patched.jar" and not the paperclip.jar wrapper.\
 After the process finishes, you need to replace your old server jar with the "fixed-server.jar" one.
 
 ### Example usage with PaperSpigot 1.17.1
