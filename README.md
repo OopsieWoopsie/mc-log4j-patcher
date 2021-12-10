@@ -9,6 +9,8 @@ Please check if your current server software has an official release fixing the 
 Usage:\
 `java -jar patcher.jar <old-server.jar> <fixed-server.jar>`
 
+[Download patcher.jar](https://github.com/OopsieWoopsie/mc-log4j-patcher/raw/main/patcher.jar)
+
 If you use PaperSpigot, then the "old-server.jar" file should be the one located at "cache/patched.jar" and not the paperclip.jar wrapper.\
 After the process finishes, you need to replace your old server jar with the "fixed-server.jar" one.
 
